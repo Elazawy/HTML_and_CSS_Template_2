@@ -4,7 +4,7 @@ This is a simple HTML and CSS template based on the "Kasper" design from Graphbe
 
 ## Live Demo
 
-[Click here](your-demo-link-here](https://elazawy.github.io/HTML_and_CSS_Template_2/) to see the live demo of this template.
+[Click here]([your-demo-link-here](https://elazawy.github.io/HTML_and_CSS_Template_2/)] to see the live demo of this template.
 
 ## Credits
 
