@@ -1,0 +1,66 @@
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-position {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.arrow.right::before {
+    content: "";
+    border: 20px solid transparent;
+    position: absolute;
+    right: -40px;
+    top: calc(50% - 20px);
+    border-left-color: #eee;
+}
+.arrow.left::before {
+    content: "";
+    border: 20px solid transparent;
+    position: absolute;
+    left: -40px;
+    top: calc(50% - 20px);
+    border-right-color: #eee;
+}
+.arrow.top::before {
+    content: "";
+    border: 20px solid transparent;
+    position: absolute;
+    top: -40px;
+    right: calc(50% - 20px);
+    border-bottom-color: #eee;
+}
+.arrow.bottom::before {
+    content: "";
+    border: 20px solid transparent;
+    position: absolute;
+    bottom: -40px;
+    left: calc(50% - 20px);
+    border-top-color: #eee;
+}
