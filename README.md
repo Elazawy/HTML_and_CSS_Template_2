@@ -12,4 +12,4 @@ This is a simple HTML and CSS template based on the "Kasper" design from Graphbe
 
 ## License
 
-This project is licensed under the terms provided by [Graphberry](https://www.graphberry.com/). Please see the full license [here](license.rtf).
+This project is licensed under the terms provided by [Graphberry](https://www.graphberry.com/). Please see the full license [here](License.rtf).
