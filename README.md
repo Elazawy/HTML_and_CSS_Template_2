@@ -4,7 +4,7 @@ This is a simple HTML and CSS template based on the "Kasper" design from Graphbe
 
 ## Live Demo
 
-[Click here]([your-demo-link-here](https://elazawy.github.io/HTML_and_CSS_Template_2/)] to see the live demo of this template.
+[Click here](https://elazawy.github.io/HTML_and_CSS_Template_2/) to see the live demo of this template.
 
 ## Credits
 
@@ -12,4 +12,4 @@ This is a simple HTML and CSS template based on the "Kasper" design from Graphbe
 
 ## License
 
-This project is licensed under the terms provided by [Graphberry](https://www.graphberry.com/). Please see the full license [here](LICENSE.md).
+This project is licensed under the terms provided by [Graphberry](https://www.graphberry.com/). Please see the full license [here](license.rtf).
