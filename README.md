@@ -12,7 +12,7 @@ This is a simple HTML and CSS template based on the "Kasper" design from Graphbe
 
 ## Credits
 
-- **Design Template**: [Kasper PSD](https://www.graphberry.com/item/kasper) from [Graphberry](https://www.graphberry.com/).
+- **Design Template**: [Kasper - One Page Creative PSD Template](https://www.graphberry.com/item/kasper) from [Graphberry](https://www.graphberry.com/).
 
 ## License
 
