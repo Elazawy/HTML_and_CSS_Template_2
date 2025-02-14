@@ -1,11 +1,35 @@
-# HTML and CSS Template 2
-This is a simple HTML and CSS template based on the "Kasper" design from Graphberry. It is designed to be clean, modern, and responsive, making it suitable for personal or commercial projects. 
+# Kasper - One Page Creative Template
+Kasper is a modern, responsive, and visually stunning one-page HTML/CSS template, inspired by the "Kasper" design from Graphberry. Perfect for creative portfolios, agencies, or personal projects, it offers a sleek and professional layout with smooth animations and interactive elements.
 
-## Features
-- **Responsive Design**: Optimized for viewing on different devices, including desktops, tablets, and smartphones.
-- **Easy Customization**: The template is structured with well-organized HTML and CSS, making it easy to modify according to your needs.
-- **Cross-Browser Compatibility**: The template works seamlessly across all major browsers.
+## Key Features
+Responsive Design: Optimized for all devices (desktop, tablet, mobile).
 
+Modern Layout: Clean and creative design with smooth animations.
+
+Multiple Sections: Includes Services, Portfolio, About, Pricing, and Contact sections.
+
+Interactive Elements: Hover effects, sliders, and video backgrounds.
+
+Easy Customization: Well-structured HTML and CSS for quick modifications.
+
+Cross-Browser Compatibility: Works seamlessly across all major browsers.
+
+## Sections Included
+Header: Logo and navigation menu.
+
+Landing: Full-screen intro with a video background.
+
+Services: Showcase your services with icons and descriptions.
+
+Portfolio: Grid-based project showcase with hover effects.
+
+About: A section to describe your team or agency.
+
+Pricing: Display pricing plans in a clean layout.
+
+Contact: Contact form and social media links.
+
+Footer: Simple and clean footer with social icons.
 ## Live Demo
 
 [Click here](https://elazawy.github.io/HTML_and_CSS_Template_2/) to see the live demo of this template.
