@@ -383,7 +383,6 @@ header ul .active {
     position: relative;
     overflow: hidden;
     background-size: cover;
-    margin-bottom: var(--section-padding);
 }
 .design .overlay {
     position: absolute;
@@ -440,6 +439,7 @@ header ul .active {
 /* Start portfolio */
 .portfolio {
     padding-bottom: var(--section-padding);
+    padding-top: var(--section-padding);
 }
 .portfolio .filters {
     width: 329px;
@@ -576,6 +576,7 @@ header ul .active {
     position: relative;
     overflow: hidden;
     text-align: center;
+    padding-top: var(--section-padding);
 }
 .about img{
     position: relative;
