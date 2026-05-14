@@ -84,4 +84,24 @@ window.addEventListener('DOMContentLoaded', function() {
             updateLandingContent(currentIndex);
         });
     });
+    // Enabling Portfolio Filters
+    const filterButtons = document.querySelectorAll('.portfolio .filters div');
+    const portfolioItems = document.querySelectorAll('.portfolio .works > div');
+    console.log(filterButtons, portfolioItems);
+    filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Remove active class from all buttons
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            // Add active class to the clicked button
+            this.classList.add('active');
+            const filter = this.textContent.toLowerCase();
+            portfolioItems.forEach(item => {
+                if (filter === 'all' || item.classList.contains(filter)) {
+                    item.style.display = 'flex';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
 });

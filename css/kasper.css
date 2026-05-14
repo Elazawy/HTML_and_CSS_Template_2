@@ -468,12 +468,17 @@ header ul .active{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 10px 30px;
     width: 38px;
     height: 38px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
-.portfolio .filters div:first-child {
+.portfolio .filters div:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+.portfolio .filters div.active {
     color: white;
     background-color: var(--main-color);
 }
