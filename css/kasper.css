@@ -176,6 +176,9 @@ header nav ul {
         display: none;
     }
 }
+.form i::before {
+    cursor: pointer;
+}
 header nav .form i {
     color: white;
     font-size: 20px;
@@ -185,11 +188,21 @@ header nav .form {
     display: flex;
     align-items: center;
     position: relative;
-    width: 40px;
+    /* width: 40px;   */
     height: 30px;
     border-left: 1px solid white;
     padding-left: 20px;
     justify-content: flex-end;
+}
+header nav .form .search-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding: 5px;
+    outline: none;
+    width: 150px;
+    transition: width .3s ease;
 }
 @media (max-width: 767px) {
     header nav .form {
@@ -218,10 +231,11 @@ header ul li {
     z-index: 1;
 }
 header ul a:hover,
-header ul .active {
+header ul .active{
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
     z-index: 1;
+    height:  100px;
 }
 /* End header  */
 /* Start landing  */
@@ -256,6 +270,9 @@ header ul .active {
     justify-content: flex-end;
     align-items: center;
     padding: 40px;
+}
+.landing i{
+    cursor: pointer;
 }
 .landing .text .content {
     max-width: 500px;
@@ -323,10 +340,10 @@ header ul .active {
     -o-border-radius: 50%;
     margin-right: 5px;
 }
-.landing .bullets span:not(:nth-child(2)) {
+.landing .bullets span:not(.active) {
     border: 1px solid white;
 }
-.landing .bullets span:nth-child(2) {
+.landing .bullets span.active {
     background-color: var(--main-color);
 }
 /* End landing  */

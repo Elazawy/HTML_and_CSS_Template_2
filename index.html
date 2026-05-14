@@ -17,9 +17,10 @@
     <!-- Main template css file -->
     <link rel="stylesheet" href="css/kasper.css">
 </head>
-<div>
-    <!-- start header  -->
-    <header>
+<body>
+    <div>
+        <!-- start header  -->
+        <header>
         <div class="container">
             <a href="#" class="logo">
                 <img src="images/logo.png" alt="Logo">
@@ -47,17 +48,14 @@
         <div class="text">
             <div class="content">
                 <h2>Hello World!<br>We Are Kasper We Make Art.</h2>
-                <p> Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit,
-                    eget tincidunt nibh pulvinar a. Curabitur aliquet quam.
-                    Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.
-                </p> 
+                <p>One of the best free website templates by TemplateMo</p> 
             </div>
         </div>
-        <i class="fas fa-angle-left change-background fa-2x"></i>
-        <i class="fas fa-angle-right change-background fa-2x"></i>
+        <i id="left-arrow" class="fas fa-angle-left change-background fa-2x"></i>
+        <i id="right-arrow" class="fas fa-angle-right change-background fa-2x"></i>
         <div class="bullets">
             <span></span>
-            <span></span>
+            <span class="active"></span>
             <span></span>
         </div>
     </div>
@@ -482,5 +480,6 @@
         </div>
     </div>
     <!-- End footer -->
+    <script src="script.js"></script>
 </body>
 </html>
