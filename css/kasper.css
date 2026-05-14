@@ -885,6 +885,9 @@ header ul .active{
     bottom: 0%;
     transform: translateX(-50%);
 }
+.plan .foot a {
+    cursor: pointer;
+}
 .pricing .plan ul li:last-child::after {
     content: "";
     position: absolute;
